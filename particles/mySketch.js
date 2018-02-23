@@ -101,9 +101,9 @@ function setup() {
 
 function draw() {
 	update();
-    // drawingContext.globalCompositeOperation = 'normal';
+    drawingContext.globalCompositeOperation = 'normal';
   	background(0);
- 	// drawingContext.globalCompositeOperation = 'lighter';
+ 	drawingContext.globalCompositeOperation = 'lighter';
 	for (var i = particles.length - 1; i >= 0; i--) {
     	particles[i].show();
     }
